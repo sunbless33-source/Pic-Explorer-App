@@ -1,10 +1,11 @@
 import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
+import react from '@vitejs.plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Pic-Explorer-App/', // 👈 이 위치에 추가해 주시면 됩니다!
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
