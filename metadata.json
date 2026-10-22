@@ -1,0 +1,10 @@
+{
+  "name": "AI와 함께 하는 규칙 탐험",
+  "description": "초등학교 1학년을 위한 재미있는 사진 속 규칙 찾기 AI 수학 도우미",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
