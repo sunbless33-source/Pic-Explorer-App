@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Pic-Explorer-App/', // 👈 GitHub Pages 저장소 이름을 명시합니다.
+    base: '/', // 👈 Vercel 배포에 맞춰 루트 경로로 변경했습니다.
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
